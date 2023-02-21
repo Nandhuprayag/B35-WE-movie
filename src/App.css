@@ -1,0 +1,201 @@
+.App {
+  text-align: center;
+}
+
+
+.home-style
+{
+  background-image: url("https://thumbs.dreamstime.com/b/swiss-village-lungern-switzerland-catholic-church-traditional-wood-modern-houses-along-lake-lungernsee-swiss-village-156096804.jpg");
+  min-height: 90vh;
+}
+.toolbar-style
+{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.btn-container
+{
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+#color-style
+{
+  border: none;
+  border-radius: 10px;
+  padding: .8rem;
+  font-size: 1.2em;
+  outline: none;
+}
+
+#list-style
+{
+  margin-left: 150px;
+  background-color: #61dafb;
+}
+
+#btn:hover
+{
+  background-color: lightcyan;
+  transition: all 2s ease-in;
+}
+
+
+.card-style
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.cardaction-style
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.mode-style
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+
+
+
+
+/* card style */
+.movie-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+  margin: .9em;
+}
+
+.movie-container{
+  width: 360px;
+  /* background-color: rgb(125, 122, 122); */
+  border-radius: 1em;
+  padding-bottom: 10px;
+}
+
+.movie-poster{
+  width:360px;
+  height: 700px;
+  object-fit: cover;
+}
+
+.movie-name{
+  font-size: 24px;
+  margin: 0;
+}
+.movie-summary{
+  margin: 0;
+  padding-bottom:10px;
+  /* height: 40vh; */
+}
+
+.movie-rating{
+  font-size: 20px;
+}
+.movie-spec
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  padding: 1em;
+}
+
+.movie-style
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+/* movie detail style */
+
+.movie-detail-style
+{
+  margin: 1em;
+}
+
+.movie-detail-container
+{
+  margin: 1.5em;
+}
+
+.add-movie-form
+{
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+  gap: 1.2em;
+}
+.movieedit-style
+{
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+  gap: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
